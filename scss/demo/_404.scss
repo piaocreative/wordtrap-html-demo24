@@ -1,0 +1,16 @@
+/* ----------------------------------------------------------------
+
+	404.scss
+
+-----------------------------------------------------------------*/
+.error-logo {
+    font-family: $heading-font;
+    font-weight: 300;
+    font-size: 18.75rem;
+    line-height: 0.875;
+    color: #4a4948;
+    
+    @include media-breakpoint-down(sm) {
+        font-size: 10.75rem;
+    }
+}
