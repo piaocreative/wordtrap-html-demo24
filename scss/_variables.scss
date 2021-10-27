@@ -48,16 +48,16 @@ $h6-font-size:               	  0.875rem;
 
 
 // border//
-$border-radius:               1rem;
-$border-radius-sm:            2rem;
-$border-radius-lg:            3rem;
-$border-radius-pill:          50rem;
+$border-radius:                 1rem;
+$border-radius-sm:              2rem;
+$border-radius-lg:              3rem;
+$border-radius-pill:            50rem;
 
 
 //-------------------- Top Bar --------------------//
 
-$topbar-color:                  #ddcef5;
-$topbar-hover-color:            #ddcef5;
+$topbar-color:                #ddcef5;
+$topbar-hover-color:          #ddcef5;
 
 $container-max-widths: (
   xl: 80%
@@ -68,8 +68,8 @@ $container-max-widths: (
 
 $topbar-height:                 2.8125rem;
 $topbar-line-height:            2.75rem;
-$topbar-color:                  #adacac;
-$topbar-hover-color:            #7c7b7a;
+$topbar-color:                #adacac;
+$topbar-hover-color:          #7c7b7a;
 
 //-------------------- Primary Menu --------------------//
 
@@ -95,12 +95,12 @@ $top-btn-font-color:       		#ffffff;
 
 
 //-------------------- Section --------------------//
-$section-spacer:				4.25rem;
+$section-spacer:			         	4.25rem;
 
 
 // Forms
-$input-color:                   #8f8f8f;
-$input-border-color:            #5a5a5a;
+$input-color:                 #8f8f8f;
+$input-border-color:          #5a5a5a;
 $input-border-width:			      1px;
 $input-btn-focus-color-opacity: 1;
 
@@ -127,27 +127,15 @@ $input-border-radius-lg:        1.83rem;
 
 $input-font-weight:				      400;
 $input-focus-box-shadow:		    0 0 0 1px #e5e8e8;
-$input-placeholder-color:       #858483;
+$input-placeholder-color:     #858483;
 
 //Selects
-$form-select-padding-y:          $input-btn-padding-y;
-$form-select-padding-x:          0;
-$form-select-border-radius:      0;
-$form-select-font-family:        $body-font;
-$form-select-font-size:          0.8rem;
-$form-select-color:            #676062;
-
-$form-check-input-width:                  1.2em;
-$form-check-min-height:                   2rem;
-$form-check-padding-start:                $form-check-input-width + .5em;
-$form-check-input-checked-color:          #ffffff;
-$form-check-input-checked-bg-color:       $theme-color;
-
-$form-check-input-bg:                     $theme-color;
-$form-check-input-border:                 1px solid rgba($theme-color, .25);
-$form-check-input-border-radius:          .25em;
-$form-check-radio-border-radius:          50%;
-
+$form-select-padding-y:         $input-btn-padding-y;
+$form-select-padding-x:         0;
+$form-select-border-radius:     0;
+$form-select-font-family:       $body-font;
+$form-select-font-size:         0.8rem;
+$form-select-color:           #676062;
 
 // Buttons
 $btn-font-family:               $body-font;

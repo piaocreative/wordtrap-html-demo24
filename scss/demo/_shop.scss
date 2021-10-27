@@ -31,7 +31,12 @@
 		.category-title {
 			font-size: 1.125rem;
 			letter-spacing: 0.05rem;
+			color: #4a4948;
 		}
+	}
+
+	.category-title {
+		font-family: $body-font;
 	}
 }
 

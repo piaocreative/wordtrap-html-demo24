@@ -40,33 +40,30 @@
 }
 
 .beauty {
-	position: absolute;
-	left: 0;
-	bottom: 5.5rem;
-	width: 100%;
-
 	.link-icon {
 		position: absolute;
 		top: -3rem;
 		right: 14rem;
 	}
 
-	@include media-breakpoint-down(lg) {
-		position: relative;
-		bottom: 0;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		left: 0;
+		bottom: 5.5rem;
+		width: 100%;
 	}
 }
 
 .inspirate-image {
-	position: absolute;
-	top: 25%;
-	right: 0;
-	max-width: calc( 19vw - 7rem );
+	position: relative;
+	top: 1rem;
+	max-width: 100%;
 
-	@include media-breakpoint-down(lg) {
-		position: relative;
-		top: 1rem;
-		max-width: 100%;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		top: 25%;
+		right: 0;
+		max-width: calc( 19vw - 7rem );
 	}
 }
 
@@ -123,10 +120,9 @@
 }
 
 .about-detail {
-
 	@include media-breakpoint-up(lg) {
 		position: absolute;
-		top: -1rem;
+		top: 4rem;
 		width: 100%;
 	}
 }
@@ -198,4 +194,10 @@
 			left: -3rem;
 		}
 	}
+}
+
+.shop-now-link {
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
 }
