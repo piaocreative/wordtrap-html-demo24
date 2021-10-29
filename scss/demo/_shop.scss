@@ -54,7 +54,6 @@
 
 .product {
 	position: relative;
-	padding: 2rem;
 
 	.product-image {
 		position: relative;
@@ -149,6 +148,10 @@
 		.product-btns {
 			opacity: 1;
 		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-right: 6rem;
 	}
 }
 
